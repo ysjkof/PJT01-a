@@ -5,6 +5,7 @@
 @import "nav.css";
 @import "calendar.css";
 @import "main.css";
+@import "modal.css";
 
 body {
   width: 375px;

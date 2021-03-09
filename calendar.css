@@ -1,13 +1,15 @@
 .calendar {
   width: 100%;
-  box-shadow: 0 3px 9px rgba(50, 50, 93, 0.11);
+  box-shadow: 0 3px 10px rgba(50, 50, 93, 0.11);
   margin-bottom: 15px;
+  padding-top: 7px;
 }
 
 .calendar--days {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .calendar--days .calendar--day:first-child {

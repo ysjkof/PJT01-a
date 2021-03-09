@@ -33,9 +33,9 @@
       <div class="calendar--date"><span>29</span></div>
       <div class="calendar--date"><span>30</span></div>
       <div class="calendar--date"><span>31</span></div>
-      <div class="calendar--date"><span>1</span></div>
-      <div class="calendar--date"><span>2</span></div>
-      <div class="calendar--date"><span>3</span></div>
+      <div class="calendar--date opacity-3"><span>1</span></div>
+      <div class="calendar--date opacity-3"><span>2</span></div>
+      <div class="calendar--date opacity-3"><span>3</span></div>
     </div>
     <div class="calendar--expension"><button><i class="bi bi-chevron-compact-down"></i></button></div>
   </section>
@@ -44,7 +44,7 @@
       <div class='time'>
         <div>오전</div>
         <div>09:00</div></div>
-      <div class='name'>
+      <div class='name modal-open'>
         <div>홍길동</div>
         <div>0001</div></div>
     </div>
@@ -56,14 +56,45 @@
         <div>각시탈</div>
         <div>0036</div></div>
     </div>
+    <div class='timeline empty-timeline'>
+      <div class='time empty-time'>
+        <div>오전</div>
+        <div>11:00</div></div>
+      <div class='name empty-name'>
+        <div></div>
+        <div></div></div>
     </div>
     <div class='timeline'>
       <div class='time'>
         <div>오전</div>
-        <div>12:30</div></div>
+        <div>12:00</div></div>
       <div class='name'>
         <div>아이오닉</div>
         <div>2103</div></div>
+    </div>
+    <div class='timeline empty-timeline'>
+      <div class='time empty-time'>
+        <div>오후</div>
+        <div>01:00</div></div>
+      <div class='name empty-name'>
+        <div>쉬는 시간</div>
+        <div></div></div>
+    </div>
+    <div class='timeline empty-timeline'>
+      <div class='time empty-time'>
+        <div>오후</div>
+        <div>02:00</div></div>
+      <div class='name empty-name'>
+        <div></div>
+        <div></div></div>
+    </div>
+    <div class='timeline empty-timeline'>
+      <div class='time empty-time'>
+        <div>오후</div>
+        <div>03:00</div></div>
+      <div class='name empty-name'>
+        <div></div>
+        <div></div></div>
     </div>
     <div class='timeline'>
       <div class='time'>
@@ -73,6 +104,14 @@
         <div>슈퍼맨</div>
         <div>0403</div></div>
     </div>
+    <div class='timeline empty-timeline'>
+      <div class='time empty-time'>
+        <div>오후</div>
+        <div>05:00</div></div>
+      <div class='name empty-name'>
+        <div></div>
+        <div></div></div>
+    </div>
     <div class='timeline'>
       <div class='time'>
         <div>오후</div>
@@ -81,8 +120,34 @@
         <div>배트맨</div>
         <div>0895</div></div>
     </div>
+    <div class='timeline empty-timeline'>
+      <div class='time empty-time'>
+        <div>오후</div>
+        <div>07:00</div></div>
+      <div class='name empty-name'>
+        <div></div>
+        <div></div></div>
+    </div>
+    <div class='timeline empty-timeline'>
+      <div class='time empty-time'>
+        <div>오후</div>
+        <div>08:00</div></div>
+      <div class='name empty-name'>
+        <div></div>
+        <div></div></div>
+    </div>
   </main>
-
+<div class="modal-window hidden">
+  <div class="modal-close">
+    <i class="bi bi-chevron-double-down"></i>
+  </div>
+  <div class="modal-window--title">오전 09:00</div>
+  <p class="modal-window--content">
+    고유번호: 0001<br>
+    이름: 홍길동<br>
+    나이: 28세(78년 09월)<br>
+  </p>
+</div>
   <script src='app.js'></script>
 </body>
 </html>
