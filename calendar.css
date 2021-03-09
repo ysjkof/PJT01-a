@@ -1,0 +1,44 @@
+.calendar {
+  width: 100%;
+  box-shadow: 0 3px 9px rgba(50, 50, 93, 0.11);
+  margin-bottom: 15px;
+}
+
+.calendar--days {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.calendar--days .calendar--day:first-child {
+  color: red;
+}
+.calendar--days .calendar--day:last-child {
+  color: blue;
+}
+
+.calendar--dates {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.calendar--dates .calendar--date {
+  width: 14%;
+}
+
+.calendar--dates .calendar--date:first-child {
+  color: red;
+}
+.calendar--dates .calendar--date:last-child {
+  color: blue;
+}
+
+.calendar--expension {
+  display: flex;
+  justify-content: center;
+}
+.calendar--expension button {
+  border-style: none;
+  background: 0;
+}

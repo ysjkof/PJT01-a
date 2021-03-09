@@ -1,0 +1,34 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.nav--column button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.nav--column:nth-child(1) {
+  margin-left: 13px;
+}
+
+.nav--column:nth-child(2) {
+  position: relative;
+}
+
+.nav--column--year {
+  position: absolute;
+  left: -85px;
+  bottom: 0;
+  width: 90px;
+  /* opacity: 0.7; */
+}
+.nav--column--month {
+  font-size: 1.3rem;
+}
+
+.nav--column:nth-child(3) {
+  margin-right: 20px;
+}
