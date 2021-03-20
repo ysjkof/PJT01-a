@@ -7,6 +7,7 @@
   top: 0;
   left: 0;
   height: 100%;
+  /* 화면 가로가 375px보다 커지면 히스토리 데이 코멘트 길이가 길어서 화면 벗어남. */
   width: 100%;
   background-color: white;
   display: flex;
@@ -24,10 +25,14 @@
   }
 }
 
-.modal-close {
+.modal-title {
   margin-bottom: 7px;
+}
+
+.rotation-animation{
   animation: rotationComponent 2s ease-in-out infinite alternate;
 }
+
 .modal-window--title {
   text-align: center;
   width: 375px;

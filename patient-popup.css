@@ -1,0 +1,40 @@
+.title {
+  margin: 24px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title span:nth-child(2),
+.title span:last-child {
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.title span:nth-child(3) {
+  color: rgba(0, 0, 255, 0.719);
+}
+
+.note {
+  height: 30vh;
+  padding: 0 10px;
+}
+
+.history-day {
+  margin-bottom: 8px;
+}
+
+.history-day__date {
+  width: 30px;
+  margin-right: 8px;
+  padding-right: 4px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  color: green;
+  text-align: right;
+}
+.history-day__coment {
+  color: blue;
+  width: 340px;
+}
+
+/*  */

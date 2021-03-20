@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
   <link rel='stylesheet' href='styles.css' />
+  <link rel="stylesheet" href="patient-popup.css">
   <title>시간표</title>
 </head>
 <body>
@@ -137,17 +139,66 @@
         <div></div></div>
     </div>
   </main>
-<div class="modal-window hidden">
-  <div class="modal-close">
-    <i class="bi bi-chevron-double-down"></i>
+  <div class="modal-window hidden">
+    <div class="modal-title modal-close rotation-animation">
+      <i class="bi bi-chevron-double-down"></i>
+    </div>
+    <span>오전 09:00</span>
+    <div class="modal-window--title title">
+      <span>홍길동</span><span>30세(90년 11월)</span><span>♂️</span>
+    </div>
+    <!-- note start -->
+    <div class="modal-window--content">
+      <div class="note">
+        <div class="history-day">
+          <span class="history-day__date">History</span>
+          <span class="history-day__coment">사무직이었는데 5년 전에 컨베이어에 물건 올리는 일 총 4주 했는데 2주 정도 할 때부터 아파짐. 그뒤 계속됨. 설거지하거나 물건 옮기거나 하면 반복됨 </span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">제한사항</span>
+          <span class="history-day__coment">both SH full flex limit</span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">제한사항</span>
+          <span class="history-day__coment">u-Tx ext LOM</span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">제한사항</span>
+          <span class="history-day__coment">메모: 어깨 척추 저가동성 문제로 보고 치료.</span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">TEST</span>
+          <span class="history-day__coment">AROM</span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">TEST</span>
+          <span class="history-day__coment">PROM</span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">TEST</span>
+          <span class="history-day__coment">SPECIAL</span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">치료</span>
+          <span class="history-day__coment"> ^^ </span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">supine</span>
+          <span class="history-day__coment">both pec, UE flexor, 겨드랑 이완</span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">1</span>
+        <span class="history-day__coment">여전히 반응이 애매함. </span>
+        </div>
+        <div class="history-day">
+          <span class="history-day__date">24</span>
+          <span class="history-day__coment">반응이 애매함.</span>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="modal-window--title">오전 09:00</div>
-  <p class="modal-window--content">
-    고유번호: 0001<br>
-    이름: 홍길동<br>
-    나이: 28세(78년 09월)<br>
-  </p>
-</div>
+  <!-- pop up contents End-->
+
   <script src='app.js'></script>
 </body>
 </html>
